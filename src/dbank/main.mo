@@ -19,7 +19,7 @@ actor DBank {
     Debug.print(debug_show(currentValue));
   };
 
-  public func withdrawl(amount: Float)
+  public func withdraw(amount: Float)
   {
 
     if(currentValue >= amount)
